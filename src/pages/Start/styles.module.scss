@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+}
+
+.logoHeader {
+    max-height: 100px;
+}
+
+.secondaryBtn {
+    cursor: pointer;
+    padding: 10px 16px;
+    color: #8ABE9F;
+    background: #EDECEC;
+    border-radius: 10px;
+    font-family: 'Scada';
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    max-height: 40px;
+    margin-top: 5px;
+}
+
+.secondaryTitle {
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(92, 92, 92, 0.6);
+    margin-top: 25px;
+}
+
+.mainBtn {
+    cursor: pointer;
+    margin-top: 35px;
+    background: #F6E7BA;
+    border-radius: 20px;
+    padding: 12px 32px;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #757876;
+    border: none;
+}
+
+.box {
+    text-align: center;
+}
+
+.mailLogo {
+    width: 30%;
+}
+
+@media (max-width: 800px) {
+    .mainBtn {
+        margin-top: 20px;
+        padding: 12px 32px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .secondaryTitle {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mainBtn {
+        margin-top: 10px;
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .logoHeader {
+        max-height: 50px;
+    }
+
+    .secondaryBtn {
+        padding: 5px 10px;
+        font-size: 12px;
+        max-height: 40px;
+        margin-top: 5px;
+    }
+}

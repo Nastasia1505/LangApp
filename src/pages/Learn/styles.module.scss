@@ -1,0 +1,63 @@
+.progressBar {
+  position: absolute;
+  height: 12px;
+  border-radius: 0px 20px 20px 0px;
+  width: 0vw;
+  transition: 0.6s;
+  background-color: #F6E7BA;
+}
+
+.progressBarContener {
+  position: relative;
+  height: 12px;
+  box-shadow: inset 1px 1px 4px #84a6d3;
+  margin-bottom: 80px;
+}
+
+.contener {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learnWord {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.translate {
+  font-size: 2rem;
+}
+
+.btn {
+  background: #F6E7BA;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  width: 150px;
+  color: #757876;
+  margin-top: 10px;
+}
+
+
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 630px) {
+  .btn {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .translate {
+    font-size: 1.2rem;
+  }
+
+  .progressBarContener {
+    margin-bottom: 30px;
+  }
+}

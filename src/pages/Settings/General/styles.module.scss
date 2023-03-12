@@ -1,0 +1,106 @@
+.cardVariantDefault {
+    background-color: rgba(162, 205, 179, 0.241);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectionFormContener {
+    display: flex;
+    padding-bottom: 4px;
+    gap: 5px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: rgba(133, 133, 133, 0.738);
+    border: 0;
+}
+
+.sectionForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #2f4553;
+}
+
+.sectionFormTitle {
+    font-size: .875rem;
+    letter-spacing: 0;
+    color: #4f4f4f;
+}
+
+.asterisk {
+    font-size: .875rem;
+    color: #fe2247;
+}
+
+.sectionTitle {
+    color: #4f4f4f;
+    font-size: 1.25rem;
+    padding: 0 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.sectionInput {
+    background-color: rgba(162, 205, 179, 0.241);
+    border: 1px solid #2f4553;
+    border-radius: .25rem;
+    padding: .5rem;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    cursor: text;
+    max-width: 420px;
+}
+
+.sectionInput:hover {
+    border: 2px solid #557086;
+}
+
+.sectionFooter {
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: flex-end;
+}
+
+
+.btn {
+    background: #EDD587;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.58);
+    font-family: 'Scada';
+    font-style: normal;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    font-weight: bold;
+}
+
+.inputError {
+    font-family: proxima-nova, sans-serif;
+    padding: 0.5rem 0 0.25rem;
+    color: #fe2247;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+}
+
+.errorIcon {
+    width: 16px;
+    height: 16px;
+}
+
+.error {
+    font-family: proxima-nova, sans-serif;
+    margin-left: 0.5rem;
+}

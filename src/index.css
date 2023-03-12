@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+	padding: 0 64px;
+	background-image: url(./assets/SartPage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button {
+	cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+	html {
+		background-image: none;
+	}
+}
+
+@media (max-width: 800px) {
+	html {
+		padding: 0 35px;
+	}
+}
+
+@media (max-width: 630px) {
+	html {
+		padding: 0 16px;
+	}
 }

@@ -1,0 +1,8 @@
+export { Home } from './Home'
+export { Learn } from './Learn'
+export { Library } from './Library'
+export { Settings } from './Settings'
+export { SignIn } from './SighIn'
+export { SignUp } from './SighUp'
+export { Translator } from './Translator'
+export { Start } from './Start'

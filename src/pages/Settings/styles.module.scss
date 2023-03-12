@@ -1,0 +1,83 @@
+.wrapper {
+    top: 60px;
+    position: relative;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.settingsTitle {
+    font-size: 1.125rem;
+    color: rgb(89, 88, 88);
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.contener {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+}
+
+.outerWrapper {
+    padding: 0.5rem 0;
+    background-color: rgba(162, 205, 179, 0.241);
+    border-radius: 10px;
+    display: block;
+    max-height: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    color: rgb(89, 88, 88);
+    font-size: 0.875rem;
+    width: 180px;
+}
+
+.navText {
+    color: rgb(89, 88, 88);
+    font-size: 1rem;
+    outline: none;
+    line-height: 150%;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.exit {
+    color: #fff;
+    width: 70%;
+}
+
+.settingsIcon {
+    color: #b1bad3;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+.link {
+    padding: 10.5px 14px;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: rgba(153, 206, 174, 0.788);
+}
+
+.linkActive {
+    padding: 10.5px 14px;
+    background-color: rgba(138, 190, 159, 0.77);
+    border-left: 3.5px solid #EDD587;
+    transition: .2s;
+    cursor: pointer;
+}

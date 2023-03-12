@@ -1,0 +1,62 @@
+.btn {
+    margin-top: 10px;
+    background: #EDD587;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.58);
+    font-family: 'Scada';
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 12px 24px;
+    border: none;
+    font-weight: bold;
+    width: 420px;
+}
+
+.secondaryTitle {
+    margin-top: 50px;
+    color: #4d4d4d;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.logoHeader {
+    max-height: 100px;
+}
+
+.input {
+    width: 420px;
+    height: 54px;
+    padding: 12px 24px;
+    font-family: 'Scada';
+    font-style: normal;
+    font-size: 1, 5rem;
+    color: rgba(73, 70, 70, 0.556);
+    border: 1px solid rgba(138, 190, 159, 0.77);
+    border-radius: 15px;
+    outline: none;
+}
+
+@media (max-width: 630px) {
+    .input {
+        width: 280px;
+        height: 34px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        color: rgba(73, 70, 70, 0.556);
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 8px 18px;
+        width: 280px;
+    }
+}
