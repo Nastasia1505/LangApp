@@ -1,7 +1,7 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-
 import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded'
+import CloseIcon from '@mui/icons-material/Close';
 
 import styles from './styles.module.scss'
 import General from './General/General'
@@ -21,8 +21,8 @@ function Settings() {
             />
             <h1 className={styles.settingsTitle}>Settings</h1>
           </div>
-          <Link to='/'>
-
+          <Link to='/home'>
+            <CloseIcon />
           </Link>
         </div>
         <div className={styles.contener}>

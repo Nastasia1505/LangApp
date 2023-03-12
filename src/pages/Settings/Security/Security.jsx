@@ -1,12 +1,13 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import { useFormik } from 'formik'
-
+import { useNavigate } from 'react-router-dom'
 
 import styles from './styles.module.scss'
 import { basicSchema } from '../../../shared/validations/common'
 import { UserModel } from 'moduls'
 
 function Security() {
+	const navigate = useNavigate()
 	const { values, errors, touched, handleChange, handleBlur, handleSubmit } =
 		useFormik({
 			initialValues: {
@@ -21,6 +22,8 @@ function Security() {
 	function onSubmit() {
 		console.log('work')
 		UserModel.changeInfo(values)
+		navigate('/home')
+		window.scroll(0, 0)
 	}
 
 	return (

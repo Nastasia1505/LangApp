@@ -23,9 +23,10 @@ function SignUp() {
       onSubmit
     })
   function onSubmit(values) {
-
     console.log(values)
     UserModel.signUp(values)
+    navigate('/home')
+    window.scroll(0, 0)
   }
 
   return (

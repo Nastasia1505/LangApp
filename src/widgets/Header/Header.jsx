@@ -39,18 +39,35 @@ function Header() {
           >Translator</div>
 
         </div>
-        {/* <div className={styles.avatar}
+        <div className={styles.avatar}
           onClick={() => setIsUserWindowOpen(!isUserWindowOpen)}
         >
 
-        </div> */}
-        <button
+          {isUserWindowOpen && (
+            <div className={styles.userMenu}>
+              <button
+                className={styles.btn}
+                onClick={() => {
+                  navigate('/settings')
+                  window.scroll(0, 0)
+                }}>Settings</button>
+              <button
+                className={styles.btn}
+                onClick={() => {
+                  UserModel.logOut()
+                  navigate('/')
+                  window.scroll(0, 0)
+                }}>Log out</button>
+            </div>
+          )}
+        </div>
+        {/* <button
           onClick={() => {
             UserModel.logOut()
             navigate('/')
             window.scroll(0, 0)
           }}
-          className={styles.secondaryBtn}>Log out</button>
+          className={styles.secondaryBtn}>Log out</button> */}
       </div>
 
     </div>

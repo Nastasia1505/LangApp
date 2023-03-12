@@ -23,6 +23,8 @@ function SignIn() {
   console.log(UserModel)
   function onSubmit(values) {
     console.log(values)
+    navigate('/home')
+    window.scroll(0, 0)
     UserModel.signIn(values)
     UserModel.init()
   }

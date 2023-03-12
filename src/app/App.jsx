@@ -5,10 +5,13 @@ import Router from "./Router";
 
 
 function App() {
-
+  const [library, setLibrary] = useState(
+    JSON.parse(localStorage.getItem("library")) || []
+  );
+  const [playWords, setPlayWords] = useState([library.slice(-10).lenght]);
   return (<BrowserRouter>
     <Layout />
-    <Router />
+    <Router library={library} setLibrary={setLibrary} playWords={playWords} setPlayWords={setPlayWords} />
   </BrowserRouter>)
 
 }
