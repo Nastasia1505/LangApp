@@ -1,6 +1,6 @@
 import { UserModel } from 'moduls'
 import { observer } from 'mobx-react-lite'
-import styles from './styles.module.scss'
+import styles from './styles .module.scss'
 
 function Home() {
   return <div className={styles.wrapper}>
